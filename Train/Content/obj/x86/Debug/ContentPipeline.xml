@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>mainFont.spritefont</Source>
+      <Name>mainFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\mainFont.xnb</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleFont.spritefont</Source>
+      <Name>TitleFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\TitleFont.xnb</Output>
+      <Time>2010-11-24T23:48:56-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Large.spritefont</Source>
+      <Name>Large</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Large.xnb</Output>
+      <Time>2010-11-28T01:02:40-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gatGun.fbx</Source>
+      <Name>Models\gatGun</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Models\gatGun.xnb</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\gatGun_0.xml</Key>
+        <Value>2014-09-23T18:26:21.6829603-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\cactus.fbx</Source>
+      <Name>Models\cactus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Models\cactus.xnb</Output>
+      <Time>2010-11-22T22:21:10-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\cactus_0.xml</Key>
+        <Value>2014-09-23T18:26:22.4740055-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>lights.fx</Source>
+      <Name>lights</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\lights.xnb</Output>
+      <Time>2011-02-19T23:33:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>particle.fx</Source>
+      <Name>particle</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\particle.xnb</Output>
+      <Time>2010-11-15T16:48:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\brick.jpg</Source>
+      <Name>Textures\brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\brick.xnb</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\smoke.jpg</Source>
+      <Name>Textures\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\smoke.xnb</Output>
+      <Time>2010-11-28T03:30:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\grass.jpg</Source>
+      <Name>Textures\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\grass.xnb</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Metal.jpg</Source>
+      <Name>Textures\Metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\Metal.xnb</Output>
+      <Time>2010-11-15T15:43:40-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\woodtext.png</Source>
+      <Name>Textures\woodtext</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\woodtext.xnb</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\spark.jpg</Source>
+      <Name>Textures\spark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\spark.xnb</Output>
+      <Time>2010-11-16T18:28:56-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\metal2.jpg</Source>
+      <Name>Textures\metal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\metal2.xnb</Output>
+      <Time>2010-11-22T19:46:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\darkmetal.jpg</Source>
+      <Name>Textures\darkmetal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\darkmetal.xnb</Output>
+      <Time>2010-11-22T20:00:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\grass2.jpg</Source>
+      <Name>Textures\grass2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\grass2.xnb</Output>
+      <Time>2009-09-23T22:03:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\fish.jpg</Source>
+      <Name>Textures\fish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\fish.xnb</Output>
+      <Time>2010-11-26T03:49:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\hpbar.png</Source>
+      <Name>Textures\hpbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\hpbar.xnb</Output>
+      <Time>2010-11-26T19:11:56-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\energybar.png</Source>
+      <Name>Textures\energybar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\Textures\energybar.xnb</Output>
+      <Time>2010-11-26T19:54:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Corneria.mp3</Source>
+      <Name>SFX\Corneria</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\Corneria.xnb</Output>
+      <Extra>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\Corneria.wma</Extra>
+      <Time>2010-11-26T21:12:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\mgloop.wav</Source>
+      <Name>SFX\mgloop</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\mgloop.xnb</Output>
+      <Time>2010-11-26T21:26:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\mgloop2.wav</Source>
+      <Name>SFX\mgloop2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\mgloop2.xnb</Output>
+      <Time>2010-11-26T21:29:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\mgwind.wav</Source>
+      <Name>SFX\mgwind</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\mgwind.xnb</Output>
+      <Time>2010-11-26T21:49:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\cactusExplode.wav</Source>
+      <Name>SFX\cactusExplode</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\cactusExplode.xnb</Output>
+      <Time>2010-11-26T22:11:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\explode3.wav</Source>
+      <Name>SFX\explode3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\explode3.xnb</Output>
+      <Time>2010-11-26T22:09:40-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\hydraulics.wav</Source>
+      <Name>SFX\hydraulics</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\hydraulics.xnb</Output>
+      <Time>2010-11-28T18:50:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\ping.wav</Source>
+      <Name>SFX\ping</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\ping.xnb</Output>
+      <Time>2010-11-28T21:22:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\booster.wav</Source>
+      <Name>SFX\booster</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\SFX\booster.xnb</Output>
+      <Time>2010-12-10T16:58:40-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gatGun.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\gatGun_0.xml</Output>
+      <Time>2010-11-15T15:38:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cactus.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\cactus_0.xml</Output>
+      <Time>2010-11-22T22:21:10-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Austin Chamney\Documents\My Dropbox\Train-lighting(4)\Train-lighting(3)\Train\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-18T10:52:58.6839109-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
